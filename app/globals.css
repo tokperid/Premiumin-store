@@ -47,5 +47,6 @@ body {
 
 /* Smooth interactions */
 button, a {
-  @apply transition-all duration-200;
+  transition: all 0.2s ease;
+}
 }
