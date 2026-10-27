@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Premiumin Ajaaa | Akun Premium Streaming & Music</title>
+    <meta name="description" content="Jual akun premium Netflix, Spotify, Disney+, YouTube, dan lainnya. Legal, aman, full garansi.">
+    <!-- Tailwind CSS v4 CDN -->
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+        ::-webkit-scrollbar { width: 8px; }
+        ::-webkit-scrollbar-track { background: #020617; }
+        ::-webkit-scrollbar-thumb { background: #334155; border-radius: 4px; }
+        .glass-nav {
+            background: rgba(2, 6, 23, 0.9);
+            backdrop-filter: blur(12px);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+        }
+        details > summary { list-style: none; }
+        details > summary::-webkit-details-marker { display: none; }
+    </style>
+</head>
+<body class="bg-slate-950 text-slate-100 antialiased selection:bg-cyan-500 selection:text-white pb-24">
+
+    <!-- Navbar -->
+    <nav class="fixed w-full z-50 glass-nav">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-18">
+                <div class="flex items-center gap-3 cursor-pointer" onclick="window.scrollTo(0,0)">
+                    <div class="w-10 h-10 bg-gradient-to-br from-cyan-500 to-blue-600 rounded-xl flex items-center justify-center font-bold text-lg shadow-lg shadow-cyan-500/20">
+                        PA
+                    </div>
+                    <div>
+                        <h1 class="text-lg font-bold text-white tracking-tight leading-tight">Premiumin Ajaaa</h1>
+                        <p class="text-xs text-slate-400">Store Resmi & Terpercaya</p>
+                    </div>
+                </div>
+
+                <div class="flex items-center gap-4">
+                    <button onclick="toggleCart()" class="relative px-4 py-2 bg-slate-900 border border-slate-700/80 hover:border-cyan-500 text-white rounded-xl font-medium text-sm transition-all flex items-center gap-2 shadow-lg">
+                        <svg class="w-5 h-5 text-cyan-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"></path>
+                        </svg>
+                        <span>Keranjang</span>
+                        <span id="cart-badge" class="absolute -top-2 -right-2 bg-cyan-500 text-slate-950 text-xs font-bold w-5 h-5 rounded-full flex items-center justify-center shadow-md hidden">0</span>
+                    </button>
+                    <a href="https://wa.me/6285174478377?text=Halo%20Admin,%20saya%20ingin%20tanya%20ketersediaan%20akun%20premium." target="_blank" class="hidden sm:flex items-center gap-2 bg-gradient-to-r from-emerald-600 to-teal-600 hover:from-emerald-500 hover:to-teal-500 text-white px-5 py-2 rounded-xl font-bold text-sm transition-all shadow-lg shadow-emerald-500/20">
+                        Chat WhatsApp
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="relative pt-32 pb-16 lg:pt-40 lg:pb-24 overflow-hidden bg-slate-950">
+        <div class="absolute top-0 left-1/2 -translate-x-1/2 w-full h-full -z-10 opacity-25 pointer-events-none">
+            <div class="absolute top-10 left-10 w-80 h-80 bg-blue-600 rounded-full blur-[140px]"></div>
+            <div class="absolute bottom-10 right-10 w-96 h-96 bg-cyan-600 rounded-full blur-[140px]"></div>
+        </div>
+        <div class="max-w-7xl mx-auto px-4 text-center">
+            <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-slate-900 border border-cyan-500/30 text-cyan-300 text-xs font-bold uppercase tracking-wide mb-6 shadow-md">
+                <span class="w-2 h-2 rounded-full bg-cyan-400 animate-pulse"></span>
+                Official Premium Account Store
+            </div>
+            <h1 class="text-4xl md:text-6xl font-extrabold text-white tracking-tight mb-6 leading-tight">
+                Akun Premium Streaming <br>
+                <span class="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-teal-300 to-blue-500">& Music Termurah</span>
+            </h1>
+            <p class="max-w-2xl mx-auto text-base md:text-lg text-slate-400 font-light leading-relaxed">
+                Netflix, Disney+, Spotify, WeTV, Canva Pro, dan puluhan aplikasi lainnya. Legal, full garansi, dan proses cepat!
+            </p>
+        </div>
+    </section>
+
+    <!-- Products Catalog -->
+    <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
+        <div class="flex items-center justify-between mb-8">
+            <h2 class="text-2xl font-bold text-white tracking-tight">Pilih Layanan & Paket</h2>
+            <div class="flex gap-2 text-xs text-slate-400">
+                <span>⚡ Instant Delivery</span>
+                <span>•</span>
+                <span>🔒 Full Garansi</span>
+            </div>
+        </div>
+
+        <div id="product-grid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <!-- Rendered by JS -->
+        </div>
+    </section>
+
+    <!-- Cart Drawer Modal -->
+    <div id="cart-modal" class="fixed inset-0 z-50 bg-slate-950/80 backdrop-blur-sm hidden flex justify-end">
+        <div class="w-full max-w-md bg-slate-900 h-full border-l border-slate-800 p-6 flex flex-col justify-between shadow-2xl">
+            <div>
+                <div class="flex items-center justify-between pb-4 border-b border-slate-800">
+                    <h3 class="text-lg font-bold text-white flex items-center gap-2">
+                        🛒 Keranjang Belanja
+                    </h3>
+                    <button onclick="toggleCart()" class="text-slate-400 hover:text-white p-2">✕</button>
+                </div>
+                <div id="cart-items" class="mt-6 space-y-4 overflow-y-auto max-h-[60vh] pr-2">
+                    <!-- Cart items list -->
+                </div>
+            </div>
+
+            <div class="border-t border-slate-800 pt-4 mt-4">
+                <div class="flex justify-between items-center mb-4">
+                    <span class="text-slate-400 font-medium">Total Pembayaran:</span>
+                    <span id="cart-total" class="text-xl font-extrabold text-cyan-400">Rp 0</span>
+                </div>
+                <button onclick="checkoutWhatsApp()" class="w-full py-3.5 bg-gradient-to-r from-emerald-500 to-teal-600 hover:from-emerald-600 hover:to-teal-700 text-white font-bold rounded-xl shadow-lg shadow-emerald-500/25 flex items-center justify-center gap-2 transition-all">
+                    Checkout via WhatsApp (085174478377)
+                </button>
+                <p class="text-center text-xs text-slate-500 mt-3">Pembayaran manual transfer (0% potongan, aman & gratis)</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-slate-900/50 border-t border-slate-800/80 py-12 mt-20">
+        <div class="max-w-7xl mx-auto px-4 text-center space-y-3">
+            <p class="font-bold text-white">© 2026 Premiumin Ajaaa</p>
+            <p class="text-slate-400 text-sm">Layanan Akun Premium Streaming & Music Terpercaya</p>
+            <p class="text-cyan-400 font-semibold text-sm">WhatsApp Admin: 085174478377</p>
+        </div>
+    </footer>
+
+    <script>
+        const products = [
+            {
+                id: 'netflix',
+                name: 'Netflix Premium',
+                category: 'streaming',
+                color: 'from-red-500 to-rose-600',
+                variants: [
+                    { id: 'nf-1', name: 'Sharing 1 Bulan', price: 15000 },
+                    { id: 'nf-2', name: 'Sharing 1 Tahun', price: 175000 },
+                    { id: 'nf-3', name: 'Private 1 Bulan (1 Dev)', price: 60000 },
+                    { id: 'nf-4', name: 'Private 1 Bulan (2 Dev)', price: 120000 }
+                ]
+            },
+            {
+                id: 'spotify',
+                name: 'Spotify Premium',
+                category: 'music',
+                color: 'from-emerald-500 to-green-600',
+                variants: [
+                    { id: 'sp-1', name: 'Individual 1 Bulan', price: 15000 },
+                    { id: 'sp-2', name: 'Family Plan 1 Bulan', price: 30000 },
+                    { id: 'sp-3', name: 'Family Plan 3 Bulan', price: 80000 }
+                ]
+            },
+            {
+                id: 'wetv',
+                name: 'WeTV VIP',
+                category: 'streaming',
+                color: 'from-orange-500 to-amber-600',
+                variants: [
+                    { id: 'wt-1', name: 'Sharing 1 Bulan', price: 18000 },
+                    { id: 'wt-2', name: 'Sharing 3 Bulan', price: 45000 }
+                ]
+            },
+            {
+                id: 'disney',
+                name: 'Disney+ Hotstar',
+                category: 'streaming',
+                color: 'from-blue-600 to-indigo-700',
+                variants: [
+                    { id: 'ds-1', name: 'Sharing 1 Bulan', price: 32000 },
+                    { id: 'ds-2', name: 'Private 1 Bulan', price: 85000 }
+                ]
+            },
+            {
+                id: 'youtube',
+                name: 'YouTube Premium',
+                category: 'streaming',
+                color: 'from-red-600 to-red-700',
+                variants: [
+                    { id: 'yt-1', name: 'Email Customer 1 Bulan', price: 10000 },
+                    { id: 'yt-2', name: 'Email Admin 3 Bulan', price: 35000 }
+                ]
+            },
+            {
+                id: 'canva',
+                name: 'Canva Pro',
+                category: 'app',
+                color: 'from-cyan-500 to-blue-600',
+                variants: [
+                    { id: 'cv-1', name: '1 Bulan (Email Customer)', price: 8000 },
+                    { id: 'cv-2', name: '1 Bulan (Email Admin)', price: 10000 },
+                    { id: 'cv-3', name: '1 Tahun (Email Customer)', price: 55000 }
+                ]
+            }
+        ];
+
+        let cart = [];
+
+        function renderProducts() {
+            const grid = document.getElementById('product-grid');
+            grid.innerHTML = products.map(p => `
+                <div class="bg-slate-900 rounded-2xl border border-slate-800 overflow-hidden hover:border-slate-700 transition-all flex flex-col justify-between shadow-xl">
+                    <div class="h-2 bg-gradient-to-r ${p.color}"></div>
+                    <div class="p-6 flex-1 flex flex-col justify-between">
+                        <div>
+                            <h3 class="text-xl font-bold text-white mb-4">${p.name}</h3>
+                            <div class="space-y-2 mb-6">
+                                ${p.variants.map(v => `
+                                    <div class="flex items-center justify-between p-3 rounded-xl bg-slate-950/60 border border-slate-800/80">
+                                        <div>
+                                            <p class="text-sm font-medium text-slate-200">${v.name}</p>
+                                            <p class="text-xs font-bold text-cyan-400 mt-0.5">Rp ${v.price.toLocaleString('id-ID')}</p>
+                                        </div>
+                                        <button onclick="addToCart('${p.id}', '${v.id}')" class="px-3 py-1.5 bg-slate-800 hover:bg-cyan-600 text-white text-xs font-bold rounded-lg transition-all">
+                                            + Keranjang
+                                        </button>
+                                    </div>
+                                `).join('')}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            `).join('');
+        }
+
+        function addToCart(productId, variantId) {
+            const product = products.find(p => p.id === productId);
+            const variant = product.variants.find(v => v.id === variantId);
+            
+            const existing = cart.find(item => item.variantId === variantId);
+            if (existing) {
+                existing.quantity += 1;
+            } else {
+                cart.push({
+                    productName: product.name,
+                    variantName: variant.name,
+                    price: variant.price,
+                    quantity: 1,
+                    variantId: variantId
+                });
+            }
+            updateCartUI();
+            toggleCart();
+        }
+
+        function updateCartUI() {
+            const badge = document.getElementById('cart-badge');
+            const itemsContainer = document.getElementById('cart-items');
+            const totalElement = document.getElementById('cart-total');
+
+            const totalItems = cart.reduce((sum, i) => sum + i.quantity, 0);
+            const totalPrice = cart.reduce((sum, i) => sum + (i.price * i.quantity), 0);
+
+            if (totalItems > 0) {
+                badge.innerText = totalItems;
+                badge.classList.remove('hidden');
+            } else {
+                badge.classList.add('hidden');
+            }
+
+            if (cart.length === 0) {
+                itemsContainer.innerHTML = '<p class="text-center text-slate-500 py-10">Keranjang masih kosong</p>';
+            } else {
+                itemsContainer.innerHTML = cart.map((item, idx) => `
+                    <div class="flex items-center justify-between p-3 bg-slate-950/60 rounded-xl border border-slate-800">
+                        <div>
+                            <h4 class="text-sm font-bold text-white">${item.productName}</h4>
+                            <p class="text-xs text-slate-400">${item.variantName}</p>
+                            <p class="text-xs font-bold text-cyan-400 mt-1">Rp ${(item.price * item.quantity).toLocaleString('id-ID')}</p>
+                        </div>
+                        <div class="flex items-center gap-2">
+                            <span class="text-xs text-slate-300 font-bold">x${item.quantity}</span>
+                            <button onclick="removeFromCart(${idx})" class="text-red-400 hover:text-red-300 text-xs px-2 py-1 bg-slate-900 rounded">Hapus</button>
+                        </div>
+                    </div>
+                `).join('');
+            }
+
+            totalElement.innerText = `Rp ${totalPrice.toLocaleString('id-ID')}`;
+        }
+
+        function removeFromCart(index) {
+            cart.splice(index, 1);
+            updateCartUI();
+        }
+
+        function toggleCart() {
+            const modal = document.getElementById('cart-modal');
+            modal.classList.toggle('hidden');
+        }
+
+        function checkoutWhatsApp() {
+            if (cart.length === 0) {
+                alert('Keranjang masih kosong!');
+                return;
+            }
+
+            const totalPrice = cart.reduce((sum, i) => sum + (i.price * i.quantity), 0);
+            const details = cart.map(i => `• ${i.productName} - ${i.variantName} (x${i.quantity}) : Rp ${(i.price * i.quantity).toLocaleString('id-ID')}`).join('\n');
+
+            const message = `*HALO ADMIN, SAYA INGIN ORDER* 👋\n\n${details}\n\n━━━━━━━━━━━━━━━━━━━━\n*TOTAL: Rp ${totalPrice.toLocaleString('id-ID')}*\n━━━━━━━━━━━━━━━━━━━━\n\nMohon info instruksi pembayaran transfer manual. Terima kasih!`;
+            
+            const url = `https://wa.me/6285174478377?text=${encodeURIComponent(message)}`;
+            window.open(url, '_blank');
+        }
+
+        renderProducts();
+    </script>
+</body>
+</html>
